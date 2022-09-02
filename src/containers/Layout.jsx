@@ -2,10 +2,10 @@ import React from "react";
 
 
 
-const Layout = ({ chidlren }) => {
+const Layout = ({ children }) => {
     return(
         <div className = "Layout">
-            {chidlren}
+            {children}
         </div>
     );
 }

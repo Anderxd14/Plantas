@@ -1,6 +1,6 @@
 import React from "react";  
 import '../styles/login.scss';
-const Login = () => {
+const login = () => {
     return (
     <div className="login">
       <div className="form-container">
@@ -21,4 +21,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default login;
