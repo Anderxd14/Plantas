@@ -10,22 +10,13 @@ const Nav = () =>{
     
           <ul>
             <li>
-              <a href="/">All</a>
+              <a href="/">Perfil</a>
             </li>
             <li>
-              <a href="/">Clothes</a>
+              <a href="/">Reporte Humedad</a>
             </li>
             <li>
-              <a href="/">Electronics</a>
-            </li>
-            <li>
-              <a href="/">Furnitures</a>
-            </li>
-            <li>
-              <a href="/">Toys</a>
-            </li>
-            <li>
-              <a href="/">Others</a>
+              <a href="/">Configuraciones</a>
             </li>
           </ul>
         </div>

@@ -47,5 +47,38 @@ header{
       color: var(--soft-oragen);
   
   }
+
+  .container-home-img {
+     position: relative;
+    display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     width: 100%;
+     min-width: 320px;
+     height: 400px;
+     text-align: center;
+  }
+
+  .container-home-img img {
+      width: 240px;
+      height: 240px;
+      margin-top: 60px;
+      align-self: center;
+      border-radius: 10px;
+
+  }
+
+  .container-home-img p{
+    margin-top:25px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-oragen);
+  }
+
+
+
+ 
   
   

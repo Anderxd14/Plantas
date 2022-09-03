@@ -1,7 +1,9 @@
 import React from "react";  
 import '../styles/login.scss';
+import Nav from '../components/Nav';
 const login = () => {
-    return (
+    return ( 
+      
     <div className="login">
       <div className="form-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" 

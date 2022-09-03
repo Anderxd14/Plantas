@@ -1,10 +1,22 @@
 import React from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
+import Footer from "../components/footer";
 
 const Home = () => {
     return(
-      <Nav />
+      <aside className="Home">
+        <div>
+          <Nav/>
+        </div>
+        <div>
+        <Header/>
+        </div>
+        <Footer/>
+        <div>
+
+        </div>
+      </aside>
     );
 
 }
