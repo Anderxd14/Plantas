@@ -1,7 +1,26 @@
 @import"vars";
 
 .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 200px;
-    background-color: blue;
+    min-width: 320px;
+    height: 100px;
+    background-color: #1B2631;
 } 
+
+.footer .container {
+    width: 250px;
+    min-width: 320px;
+    text-align: center;
+    
+    color: var(--white);
+}
+
+.footer .container p {
+
+    font-size: 1.4rem;
+    padding-top: 35px;
+
+}
