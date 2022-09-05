@@ -12,7 +12,6 @@ const Home = () => {
         <div>
           <Nav/>
         </div>
-
         <div>
         <Header/>
         </div>

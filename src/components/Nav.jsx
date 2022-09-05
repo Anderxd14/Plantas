@@ -10,7 +10,7 @@ const Nav = () =>{
     
           <ul>
             <li>
-              <a href="/">Perfil</a>
+            <a href = "/perfil">Perfil</a>
             </li>
             <li>
               <a href="/">Reporte Humedad</a>
