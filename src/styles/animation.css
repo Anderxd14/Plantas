@@ -1,0 +1,32 @@
+h2{
+    position:relative;
+    font-size: 5rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1w
+#383d52;
+    text-transform: uppercase;
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 0%;
+    height: 100%;
+    color: #000000;
+    -webkit-text-stroke: 0vw
+#383d52;
+    overflow: hidden;
+    animation: animate 20s linear 
+infinit;
+    -webkit-animation: animate 20s 
+linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 32.3%;
+    }
+}
