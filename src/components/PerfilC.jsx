@@ -1,13 +1,17 @@
 import React from "react";
-import "../styles/perfil.scss" 
+import "../styles/perfil.scss"
 
-const Perfil = () =>{
-    return(
+const Perfil = () => {
+    return (
         <div className="PerfilC">
-                 <div className="Dashboard">    
-                    <p>Humedad</p>
-                    </div> 
-                </div>
+            <div className="Dashboard-der">
+                menu deracha
+            </div>
+                
+            <div className="Dashboard-iz">
+                menu izquierda
+            </div>
+        </div>
     );
 }
 
