@@ -5,8 +5,9 @@ import Login from "../containers/Login";
 import RecoveryPassword from "../containers/recoveryPassword";
 import Home from '../pages/Home';
 import NotFound from "../pages/NotFound";
+import Perfil from "../pages/Perfilp";
 import '../styles/global.css';
-import Perfil from "./Perfil";
+
 
 
 const App = () =>{
@@ -16,9 +17,10 @@ const App = () =>{
             <Routes>
                 <Route exact path="/" element ={<Home/>} />
                 <Route exact path="/login" element ={<Login/>} />
-                <Route exact path="recovery-password" element ={<RecoveryPassword/>} />
+                <Route exact path="/Perfil" element ={<Perfil/>} />
+                <Route exact path="/recovery-password" element ={<RecoveryPassword/>} />
                 <Route path= "*" element={<NotFound/>}/>
-                <Route exact path="Perfil"element={<Perfil/>} />
+               
             </Routes>
         </Layout>       
         </BrowserRouter>   

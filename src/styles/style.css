@@ -6,6 +6,7 @@
 
 /* ======================== */
 .slides {
+  margin-top: 100px;
   position: relative;
   background: rgb(228, 228, 228);
   height: 60vh;
