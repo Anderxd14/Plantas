@@ -8,11 +8,7 @@ const Header = () => {
     return (
         <div className="Header">
             <header >
-                <img src="https://pbs.twimg.com/media/FcFRc39WYAEUqB0?format=png&name=small" alt="logo-image" />
-                <div className="hedear-title-container">
-                    <center><h1>La próxima Revolución en el monitoreo y control de humedad </h1></center>
-                    <p>Te ayuda a controlar los diferentes cambios de humedad de tu cultivo</p>
-                </div>
+                
             </header>
 
 
